@@ -1,0 +1,14 @@
+.post{
+    border-radius: 20px;
+    margin: 10px;
+    width: 20%;
+    padding: 5px 10px 5px 10px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 900px){
+    .post{
+        width: 80%;
+    }
+  }

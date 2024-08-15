@@ -5,7 +5,6 @@ A simple and responsive React application for managing and displaying posts with
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 
 ## Introduction

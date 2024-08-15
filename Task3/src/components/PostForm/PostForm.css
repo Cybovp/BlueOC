@@ -34,3 +34,9 @@
     top: 10px;
     position: absolute;
 }
+.savePostBtn{
+    border-radius: 10px;
+    background-color: lawngreen;
+    border: none;
+    height: 30px;
+}

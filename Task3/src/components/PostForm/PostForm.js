@@ -47,7 +47,7 @@ function PostForm() {
           onChange={onBodyChanged}
           className="contentInput"
         />
-        <button type="button" onClick={onSavePostClicked}>
+        <button className="savePostBtn" type="button" onClick={onSavePostClicked}>
           Save Post
         </button>
       </form>

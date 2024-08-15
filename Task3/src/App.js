@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchPosts } from './slices/postSlice';
 import { openPopup } from './slices/popupSlice';
@@ -11,10 +11,6 @@ function App() {
   const posts = useSelector((state) => state.posts.posts);
   const postStatus = useSelector((state) => state.posts.status);
   const error = useSelector((state) => state.posts.error);
-
-  const [currentPage, setCurrentPage] = useState(0);
-
-  const PER_PAGE = 5;
 
   const isShowPopup = useSelector((state) => state.popup.showPopup);
 
